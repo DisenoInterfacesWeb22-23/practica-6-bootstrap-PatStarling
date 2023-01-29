@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB - Bootstrap -</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-success">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html"><img src="assets/images/ENIUN@2x.png"  class="animacionLogo" alt="Logo Eniun" /></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#">SEO</a></li>
+                              <li><a class="dropdown-item" href="#">Desarrollo web</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Marketing online</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Tabla.html">Tabla</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="controlDeVideo.html">Control de vídeo</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+                          <button class="btn " type="submit">Buscar</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+          </div>
+          <div class="row mx-md-5 mx-xl-5">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+              </nav>
+          </div>
+        
+          
+          <div class="row mx-md-5 mx-xl-5 articuloscont">
+            <h1 class="display-2">Contacto</h1>
+            <p class="parr display-5">¿Que podemos hacer por ti?</p>
+            </div>
+            
+            <div class="row formulario"> 
+            <form class="form">
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control textarea" id="exampleInputName">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email:</label>
+                  <input type="email" class="form-control textarea" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Tu e-mail no será compartido.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputTextarea" class="form-label">Escribe tu comentario:</label>
+                    <textarea class="form-control textarea" name="textarea" id="exampleInputTextarea" rows="10" cols="50"></textarea>
+                    
+                  </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label check" for="exampleCheck1">Acepto las condiciones de uso</label>
+                </div>
+                <button type="submit botonenv" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+        
+        <div class="row indice">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link">&lt;</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">&gt;</a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
+          
+          <div class="row footer">
+              
+            <div class="caja fizq col-4 display-5">Eniun.com</div>
+            <div class="caja fder col-8">Politica de privacidad y cookies</div>
+          </div>
+    </div>
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

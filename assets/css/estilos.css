@@ -1,0 +1,165 @@
+.caja {
+  min-height: 150px;
+}
+
+.btn {
+  background-color: #18a2b7;
+  color: white;
+}
+
+.navbar {
+  margin: 0px;
+}
+
+.carousel-inner {
+  margin: 0px;
+}
+
+.jumbotron {
+  padding: 70px;
+  background-color: #e8ecef;
+}
+
+.articuloscont {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.articuloscont h1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.card {
+  text-align: left;
+}
+
+.footer {
+  background-color: #18a2b7;
+}
+
+.fizq {
+  color: white;
+  font-size: 1.3em;
+  line-height: 150px;
+  padding-left: 80px;
+  text-align: left;
+}
+
+.fder {
+  color: white;
+  font-size: 0.8em;
+  line-height: 150px;
+  padding-right: 80px;
+  text-align: right;
+}
+
+.parr {
+  font-size: 2.2em;
+}
+
+.textarea {
+  width: 300px;
+}
+.form {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.formulario {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.indice {
+  margin-bottom: 60px;
+}
+
+.tabla {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.cajaacordeon {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.manejadores {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.animacionLogo {
+  animation-duration: 5s;
+  animation-name: animacionLogo;
+  animation-iteration-count: infinite;
+}
+@keyframes animacionLogo {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.linea {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.jumboAnim {
+  animation-duration: 2s;
+  animation-name: animTexto;
+}
+
+@keyframes animTexto {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
