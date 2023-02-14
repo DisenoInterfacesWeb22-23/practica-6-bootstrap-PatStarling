@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+}
+
+
+
+.celda{
+    border-style: solid;
+    border-color:grey;
+    border-width: 2px;
+    height: 99%;
+    min-height: 50px;
+}
